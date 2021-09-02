@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_images",
+  "info": {
+    "name": "Images",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "caption": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "huge",
+        "big",
+        "small"
+      ],
+      "required": true,
+      "default": "big"
+    }
+  }
+}
