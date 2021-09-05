@@ -5,7 +5,7 @@ import { theme } from '../utils/theme';
 const GlobalStyle = createGlobalStyle`
   body {
     font-size: 18px;
-    font-family: 'Bitter', sans-serif;
+    font-family: 'Nunito', sans-serif;
     padding: 20px;
     }
   
@@ -16,9 +16,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: 2.3rem;
   }
 `;
 

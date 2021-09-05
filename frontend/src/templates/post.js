@@ -109,8 +109,8 @@ export default function post({ data }) {
 
       <Wrapper>
         <article>
-          <GatsbyImage image={getImage(coverImage.localFile)} style={{ width: "100%" }} />
-          <h1>{title}</h1>
+          <GatsbyImage alt={`${title} cover image`} image={getImage(coverImage.localFile)} style={{ width: "100%" }} />
+          <h1 style={{ paddingTop: "20px" }}>{title}</h1>
           <p className="lead">{lead}</p>
 
 
